@@ -1,0 +1,18 @@
+/* 
+Theme Name: Twenty Thirteen
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: the WordPress team
+Author URI: http://wordpress.org/
+Description: The 2019 theme for wordress
+Version: 1.0 
+*/
+
+/* 
+Color Palette
+#0b132b #112d4e #1c2541 #48466d #3a506b #3f72af #3d84a8 #dbe2ef #f9f7f7 #46cdcf #abedd8 #5bc0be #6fffe9
+
+*/
+
+@import url('header-style.css');
+@import url('content-style.css');
+@import url('footer-style.css');

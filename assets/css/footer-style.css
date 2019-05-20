@@ -1,0 +1,23 @@
+/* 
+Color Palette
+#0b132b #112d4e #1c2541 #48466d #3a506b #3f72af #3d84a8 #dbe2ef #f9f7f7 #46cdcf #abedd8 #5bc0be #6fffe9
+*/
+
+/* =========== FOOTER =========== */
+
+.foot-copy {
+  margin-top: 100px;
+  background:rgb(40, 87, 153);
+  position: relative;
+  width: 100%;
+  color: white;
+  display: flex;
+  min-height: 80px;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: white;
+}

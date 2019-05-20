@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* 
+Color Palette
+#0b132b #112d4e #1c2541 #48466d #3a506b #3f72af #3d84a8 #dbe2ef #f9f7f7 #46cdcf #abedd8 #5bc0be #6fffe9
+
+blue palette #0C4DCA #0A48C2 #007AE3 #3467B0 #538FF0
+
+*/
+
+/* =========== HEADER =========== */
+
+.head {
+  background: linear-gradient(to bottom, rgb(24, 65, 121), rgb(47, 102, 192));
+}
+
+.head .container {
+  min-height: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head img {
+  height: 50px;
+  width: 50px;
+}
+
+.head h1{
+  /* margin: auto; */
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: white;
+}
+.desc-head {
+  margin-top: 30px;
+}
+.desc-head h3 {
+  color: black;
+}
+
+.head .btn.btn-primary {
+  padding: 5px 40px;
+  border-radius: 50px;
+}
+
+/* ============ NAV =========== */
+
+header nav {
+  padding: 10px 30px;
+}
+
+header h3 {
+  color: white;
+  font-size: 20px;
+}
+
+.menu-menu-1-container,
+.menu-menu-2-container {
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav li, footer nav li {
+  margin: 0 10px;
+  padding: 3px 9px;
+  background-color: #35577B;
+  border-radius: 5px;
+}
+nav li:first-child {
+  margin-left: 0;
+}
+
+header nav a, footer nav a {
+  color: white;
+}
+
+/* ========== SEARCH FORM =========== */
+
+.search-form {
+  display: flex;
+  justify-content: flex-end;
+}

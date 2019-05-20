@@ -1,0 +1,125 @@
+/* 
+Color Palette
+#0b132b #112d4e #1c2541 #48466d #3a506b #3f72af #3d84a8 #dbe2ef #f9f7f7 #46cdcf #abedd8 #5bc0be #6fffe9
+*/
+
+
+/* =========== CONTENT =========== */
+.col-sm-4 {
+  padding: 15px;
+}
+
+.container.main {
+  min-height: 400px;
+  /* position: relative; */
+}
+
+.content {
+  overflow: hidden;
+  min-height: 400px;
+  padding-bottom: 20px;
+  position: relative;
+  border-radius: 7px;
+  border: 1px solid rgba(185, 185, 185, .7);
+}
+
+.content-head {
+  /* padding: 20px 40px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+  border-bottom: 1px solid rgba(185, 185, 185, .7);
+  text-align: center;
+}
+
+.content-head a {
+  color: rgb(73, 73, 73);
+}
+
+.content-body {
+  padding: 20px 40px;
+  text-align: justify;
+  min-height: 150px;
+  /* background-color: blue; */
+}
+/* sisa 120px */
+.case-meta-cat {
+  /* background-color: black; */
+  min-height: 120px;
+  padding: 0 40px;
+}
+
+.meta-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  width: 100%;
+  /* background-color: black; */
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* position: relative; */
+}
+
+.categories li {
+  list-style: none;
+  margin: 3px;
+}
+.categories a {
+  text-align: center;
+  border-radius: 20px;
+  padding: 3px 13px;
+  background-color: rgb(31, 91, 175);
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.content-foot {
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgba(17, 45, 78, .8); */
+  font-size: 17px;
+  letter-spacing: 2px;
+  bottom: 0px;
+}
+
+.content-foot a {
+  color: aliceblue;
+  position: relative;
+  background-color: #1B8BF9;
+  border-radius: 50px;
+  padding: 10px 60px;
+  transition: .3s ease;
+  border: 1px solid rgba(185, 185, 185, .7);
+}
+
+.content-foot a:hover {
+  padding: 10px 80px;
+  background-color: rgba(27, 138, 249, .8);
+  text-decoration: none;
+}
+
+
+/* ============= ARSIP ============= */
+
+.arsip {
+  background-color: rgb(31, 91, 175);
+  border-radius: 20px;
+  padding: 5px 11px;
+  margin: 3px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
