@@ -123,3 +123,8 @@ Color Palette
   font-size: 14px;
   letter-spacing: 1px;
 }
+
+.no-result {
+  display: flex;
+  justify-content: center;
+}
