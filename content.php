@@ -11,7 +11,11 @@ if (is_single()) : ?>
   <?php the_post_thumbnail('big-thumb'); the_content(); ?>
 </div>
 
-<?php else : ?>
+<?php elseif (is_page('contact-us')) : 
+
+  get_template_part('about_us');
+
+else : ?>
 
 <div class="col-sm-4">
   <div class="content">

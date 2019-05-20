@@ -1,0 +1,48 @@
+.box-quotes {
+  margin-top: 30px;
+}
+
+.quote {
+  border: 1px solid rgba(185, 185, 185, .7);
+  border-radius: 10px;
+  padding: 20px 30px;
+  /* background-color: black; */
+}
+
+.quote-logo,
+.content-qoute {
+  width: 100%;
+}
+
+.quote-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.quote img {
+  width: 70px;
+  height: 70px;
+}
+
+.content-qoute {
+  height: 250px;
+  text-align: center;
+}
+
+.content-qoute p:first-child {
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: 'Work Sans', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.content-qoute p:nth-child(2) {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 35px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.content-qoute p:last-child {
+  font-family: 'Kaushan Script', cursive;
+}

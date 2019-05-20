@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:600|Raleway:400i,500i&display=swap" rel="stylesheet"> 
   <title> <?php bloginfo('name'); ?> </title>
   <?php wp_head(); ?>
 </head>
 <body>
 
+  
+  
 <header>
   <div class="head">
     <div class="container">
@@ -18,6 +21,9 @@
       <button class="btn btn-primary">LOGIN</button>
     </div>
   </div>
+<?php if (is_page()): ?>
+<!-- Silence is golden -->
+<?php else : ?>
   <div class="desc-head">
     <div class="container">
       <div class="row">
@@ -38,4 +44,5 @@
     wp_nav_menu($args);
     ?>
   </nav>
+<?php endif; ?>
 </header>
