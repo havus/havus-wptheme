@@ -11,7 +11,7 @@ if (is_single()) : ?>
   <?php the_post_thumbnail('big-thumb'); the_content(); ?>
 </div>
 
-<?php elseif (is_page('contact-us')) : 
+<?php elseif (is_page('about-us')) : 
 
   get_template_part('about_us');
 
