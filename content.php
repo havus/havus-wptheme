@@ -8,7 +8,7 @@ if (is_single()) : ?>
   <?php the_category(); ?>
 </div>
 <div class="col-sm-12 full-content">
-  <?php the_content(); ?>
+  <?php the_post_thumbnail('big-thumb'); the_content(); ?>
 </div>
 
 <?php else : ?>

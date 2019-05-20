@@ -133,6 +133,11 @@ Color Palette
   text-align: justify;
 }
 
+.full-content img {
+  max-width: 100%;
+}
+
+
 /* ============= ARSIP ============= */
 
 .arsip {
