@@ -11,7 +11,6 @@ Color Palette
 
 .container.main {
   min-height: 400px;
-  /* position: relative; */
 }
 
 .content {
@@ -24,7 +23,6 @@ Color Palette
 }
 
 .content-head {
-  /* padding: 20px 40px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,11 +39,9 @@ Color Palette
   padding: 20px 40px;
   text-align: justify;
   min-height: 150px;
-  /* background-color: blue; */
 }
-/* sisa 120px */
+
 .case-meta-cat {
-  /* background-color: black; */
   min-height: 120px;
   padding: 0 40px;
 }
@@ -56,21 +52,21 @@ Color Palette
   align-items: flex-end;
   position: relative;
   width: 100%;
-  /* background-color: black; */
 }
 
 .categories {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* position: relative; */
 }
 
-.categories li {
+.categories li, 
+.single-cat li {
   list-style: none;
   margin: 3px;
 }
-.categories a {
+.categories a,
+.single-cat a {
   text-align: center;
   border-radius: 20px;
   padding: 3px 13px;
@@ -88,7 +84,6 @@ Color Palette
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: rgba(17, 45, 78, .8); */
   font-size: 17px;
   letter-spacing: 2px;
   bottom: 0px;
@@ -110,6 +105,33 @@ Color Palette
   text-decoration: none;
 }
 
+
+/* ============= SINGLE ============= */
+.sub-title {
+  display: flex;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.sub-title h3 {
+  border: 2px solid rgba(158, 158, 158, 0.7);
+  padding: 10px 100px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.single-cat {
+  margin-top: 30px;
+}
+
+.single-cat ul {
+  display: flex;
+}
+
+.full-content {
+  padding: 10px 20px;
+  text-align: justify;
+}
 
 /* ============= ARSIP ============= */
 

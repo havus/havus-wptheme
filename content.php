@@ -1,3 +1,18 @@
+<?php 
+if (is_single()) : ?>
+
+<div class="col-sm-12 sub-title">
+  <h3><?php the_title();?></h3>
+</div>
+<div class="col-sm-12 single-cat">
+  <?php the_category(); ?>
+</div>
+<div class="col-sm-12 full-content">
+  <?php the_content(); ?>
+</div>
+
+<?php else : ?>
+
 <div class="col-sm-4">
   <div class="content">
     <div class="content-head">
@@ -24,3 +39,5 @@
     </div>
   </div>
 </div>
+
+<?php endif; ?>

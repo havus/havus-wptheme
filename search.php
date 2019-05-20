@@ -4,7 +4,7 @@
   <div class="row">
   <?php 
   if( have_posts() ): ?>
-    <p class="col-sm-12 sub-title">
+    <p class="col-sm-12">
     Halaman <span class="arsip">Pencari</span>
     </p>
     <?php
