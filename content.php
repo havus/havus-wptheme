@@ -15,6 +15,10 @@ if (is_single()) : ?>
 
   get_template_part('about_us');
 
+elseif (is_page('contact-us')) : 
+  
+  get_template_part('contact_us');
+
 else : ?>
 
 <div class="col-sm-4">

@@ -31,9 +31,19 @@ blue palette #0C4DCA #0A48C2 #007AE3 #3467B0 #538FF0
   background: linear-gradient(to bottom, rgb(24, 65, 121), rgb(47, 102, 192));
 }
 
+.head.transparent {
+  background: transparent !important;
+  position: absolute;
+  width: 100%;
+  min-height: 80px;
+}
+
+.transparent h1 {
+  color: rgba(0, 0, 0, .7) !important;
+}
+
 .head .container {
   min-height: 80px;
-  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;

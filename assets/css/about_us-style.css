@@ -1,12 +1,67 @@
+/* ============= JUMBOTRON ============= */
+
+.jumbotron{
+  background: linear-gradient(to bottom right, 
+  rgba(244, 245, 250, .7), 
+  rgba(187, 195, 199, 0.7));
+  /* background-size: cover; */
+  min-height: 500px;
+  position: relative;
+  z-index: -1;
+}
+
+.jumbotron::after {
+  content: "";
+  display: none;
+  position: absolute;
+  bottom: -40px;
+  justify-self: center;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 40px;
+  -webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.jumbotron .col-sm-4.offset-1 {
+  /* background-color: black; */
+  padding: 100px 10px;
+}
+
+.jumbotron h1 {
+  line-height: 60px;
+  color: rgba(0, 0, 0, .7);
+}
+
+.row {
+  margin: 0;
+}
+
+/* ============= CONTRIBUTOR ============= */
+
+.contributor {
+  padding: 50px;
+  margin-top: 80px;
+  height: 300px;
+  border: 1px solid rgba(155, 155, 155, 0.7);
+}
+
+
+
+
+
+/* ============= QUOTE ============= */
+
 .box-quotes {
   margin-top: 30px;
 }
 
 .quote {
-  border: 1px solid rgba(185, 185, 185, .7);
+  border: 1px solid rgba(155, 155, 155, 0.7);
   border-radius: 10px;
   padding: 20px 30px;
-  /* background-color: black; */
 }
 
 .quote-logo,
@@ -30,8 +85,6 @@
 }
 
 .content-qoute p:first-child {
-  /* font-family: 'Courier New', Courier, monospace; */
-  /* font-family: 'Work Sans', sans-serif; */
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }

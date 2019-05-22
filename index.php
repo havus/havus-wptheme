@@ -1,7 +1,12 @@
-<?php get_header(); ?>
+<?php get_header(); 
 
+if (is_page()) :
+  // Silence is Golden
+else :?>
 <div class="container main">
   <div class="row">
+<?php endif; ?>
+
   <?php 
   if( have_posts() ):
     while( have_posts() ):
@@ -12,8 +17,13 @@
     get_template_part('no_content');
   endif; 
   ?>
-  </div>
 
+<?php 
+if (is_page()) :
+  // Silence is Golden
+else :?>
+  </div>
 </div>
+<?php endif; ?>
 
 <?php get_footer(); ?>

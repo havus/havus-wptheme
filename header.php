@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <script src="assets/js/bootstrap.min.js"></script> 
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:600|Raleway:400i,500i&display=swap" rel="stylesheet"> 
+  <!-- <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:600|Raleway:400i,500i&display=swap" rel="stylesheet">  -->
   <title> <?php bloginfo('name'); ?> </title>
   <?php wp_head(); ?>
 </head>
@@ -12,7 +12,7 @@
   
   
 <header>
-  <div class="head">
+  <div class="head <?php if (is_page('about-us')) echo "transparent"; ?>">
     <div class="container">
       <a href="<?= home_url(); ?>">
         <img src="<?= home_url(); ?>/wp-content/themes/havustheme/assets/img/circle-logo.png" alt="logo">
