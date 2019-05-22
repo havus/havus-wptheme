@@ -8,7 +8,19 @@
   </div>
   <div class="container">
     <div class="contributor">
-      <h1 class="display-4"><?php the_title(); ?></h1>
+      <h1 class="text-center">Contributor</h1>
+      <div class="row">
+        <div class="col-sm-12 box-contributor">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="<?= home_url(); ?>/wp-content/themes/havustheme/assets/img/havus.png" alt="foto">
+            </div>
+            <div class="col-sm-8">
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quod obcaecati dicta inventore quo hic, ipsam facilis enim laudantium voluptatibus minus vitae cum ipsum explicabo dolores necessitatibus sint quia rem cupiditate expedita. Earum repellendus porro necessitatibus et at quis mollitia.</p> <hr>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row box-quotes">
       <div class="col-sm-4">
