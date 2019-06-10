@@ -54,6 +54,12 @@ Color Palette
   width: 100%;
 }
 
+.meta-info a {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
 .categories {
   display: flex;
   flex-direction: column;

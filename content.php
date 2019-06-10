@@ -38,7 +38,9 @@ else : ?>
         <!-- kalo get perlu di echo, kalo the tidak perlu -->
         <?php echo get_avatar( get_the_author_meta( 'ID' ), 30 ); ?>
         <a href="<?= get_author_posts_url(get_the_author_meta('ID'));?>">
-            <?php the_author_meta('display_name'); ?></a>
+          <p><?php the_author_meta('first_name'); ?></p>
+          <p><?php the_author_meta('last_name'); ?></p>
+        </a>
         <p><?php the_date('j M Y'); ?></p>
       </div>
     </div>

@@ -67,6 +67,12 @@ blue palette #0C4DCA #0A48C2 #007AE3 #3467B0 #538FF0
   color: black;
 }
 
+.desc-head .col-sm-6 {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+}
+
 .head .btn.btn-primary {
   padding: 5px 40px;
   border-radius: 50px;
@@ -109,7 +115,88 @@ header nav a, footer nav a {
 
 /* ========== SEARCH FORM =========== */
 
-.search-form {
-  display: flex;
+.desc-head .col-sm-6.search-form {
   justify-content: flex-end;
+}
+
+.box-search {
+  position: relative;
+  height: 100%;
+  background-color: black;
+}
+
+.search-form input:focus{
+  width: 250px;
+  height: 40px;
+  border-radius: 40px;
+  padding: 0 20px;
+  line-height: 2em;
+  font-weight: 100;
+  font-size: 12px;
+  cursor: auto;
+  color: black;
+}
+
+.search-form input{
+  float: right;
+  border: 3px solid rgba(185, 185, 185, .7);
+  outline: none;
+  width: 40px;
+  cursor: pointer;
+
+  -webkit-transition:.2s all ease-in;
+  -moz-transition:.2s all ease-in;
+  transition:.2s all ease-in;
+  height:40px;
+  color:#fff;
+  border-radius:40px;
+  background:none;
+  font-size:0;
+}
+
+.search-form .close span{
+  width: 3px;
+  height: 20px;
+  border-radius: 2px;
+  background: rgb(153, 153, 153);
+  display: inline-block;
+}
+
+.search-form .front {
+  position: absolute;
+  right: 24px;
+  top: 12px;
+  transform: rotate(-45deg);
+  opacity: 0;
+  animation-delay: 2s;
+  -webkit-transition:.2s all ease-in;
+  -moz-transition:.2s all ease-in;
+  transition:.2s all ease-in;
+}
+
+.search-form .back{
+  position: absolute;
+  right: -3px;
+  top: 30px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transition:.2s all ease-in;
+}
+
+.search-form input:focus + .close .front{
+  opacity: 1;
+  -webkit-transition-delay: .2s; 
+  -moz-transition-delay: .2s; 
+  transition-delay: .2s;
+  -webkit-transform: rotate(45deg);        
+  -moz-transform: rotate(45deg);        
+  transform: rotate(45deg);        
+  background: rgba(185, 185, 185, .7);
+}
+
+.search-form input:focus + .close .back{
+  background: rgba(185, 185, 185, .7);
+  right: 24px;
+  top: 12px;
 }
